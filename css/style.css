@@ -1,0 +1,46 @@
+body {
+    height: 2000px;
+    font-family: "Jost", sans-serif;
+}
+
+header{
+    background-color: #e9edf4;
+}
+
+.aaa{
+    transition:500ms ease;
+  }
+
+.aaa.scrolled{
+    background:#000;
+  }
+
+.nav_titles li a{
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+.welcoming .we_agens {
+    color: #7153d9;
+    letter-spacing: 8px;
+}
+
+.welcoming .head {
+    font-size: 75px;
+}
+
+.welcoming .paragraph {
+    line-height: 1.5;
+    color: #54545f;
+}
+
+
+.welcoming .btn_readmore {
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border: 0px;
+    border-radius: 27px;
+    padding: 20px 45px;
+    line-height: 1;
+}
