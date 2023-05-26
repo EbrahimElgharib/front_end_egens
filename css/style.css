@@ -44,3 +44,21 @@ header{
     padding: 20px 45px;
     line-height: 1;
 }
+
+.circle-icon{
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    --bs-bg-opacity: 0.1;
+
+
+}
+
+
+
+.cards-1-para{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #54545f;
+    line-height: 1.666;
+}
