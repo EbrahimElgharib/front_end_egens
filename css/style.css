@@ -5,21 +5,26 @@ body {
 
 header{
     background-color: #e9edf4;
+
 }
 
-.aaa{
+
+/* start nav test */
+
+#nav_test_id{
     transition:500ms ease;
+    /* background-color:#000; */
   }
 
-.aaa.scrolled{
-    background:#000;
-  }
+/* end nav test */
 
 .nav_titles li a{
     font-size: 18px;
     line-height: 50px;
     font-weight: 500;
     color: #1c1c1c;
+    /* padding: 30px; */
+    margin-right: 20px;
 }
 
 .welcoming .we_agens {
@@ -62,3 +67,6 @@ header{
     color: #54545f;
     line-height: 1.666;
 }
+
+
+
