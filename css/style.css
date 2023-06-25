@@ -1,6 +1,7 @@
 body {
-    height: 2000px;
+    height: 2222px;
     font-family: "Jost", sans-serif;
+    
 }
 
 header{
@@ -27,22 +28,22 @@ header{
     margin-right: 20px;
 }
 
-.welcoming .we_agens {
+.we_agens {
     color: #7153d9;
     letter-spacing: 8px;
 }
 
-.welcoming .head {
+.head {
     font-size: 75px;
 }
 
-.welcoming .paragraph {
+.paragraph {
     line-height: 1.5;
     color: #54545f;
 }
 
 
-.welcoming .btn_readmore {
+.btn_readmore {
     background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
     border: 0px;
     border-radius: 27px;
@@ -67,6 +68,37 @@ header{
     color: #54545f;
     line-height: 1.666;
 }
+
+
+/* start about */
+.ensure-success{
+    font-weight: 500;
+}
+
+.about-ul{
+    list-style: none;
+}
+
+.about-ul li{
+    position: relative;
+    padding-left: 30px;
+}
+
+
+.about-ul li::after{
+
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #7153d9;
+    border-radius: 100%;
+    left: 0;
+    top: 9px;
+    position: absolute;
+}
+}
+
+/* end about */
 
 
 
